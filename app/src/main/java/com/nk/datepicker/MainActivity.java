@@ -48,6 +48,5 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     @Override
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
         String date = year  + "/" +  month + "/" + dayOfMonth ;
-
     }
 }
